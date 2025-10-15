@@ -13,7 +13,6 @@ public class TestComparison {
         Integer i2 = 42;
         CompareTWO<Integer> integerComparison = new CompareTWO<>(i1, i2);
         integerComparison.performComparison();
-
         StringLenghtComparison strLen1 = new StringLenghtComparison(s1);
         StringLenghtComparison strLen2 = new StringLenghtComparison(s2);
         CompareTWO<StringLenghtComparison> stringLengthComparison = new CompareTWO<>(strLen1, strLen2); // CompareTWO<StringLenghtComparison> moze jer implementira Comparable

@@ -5,7 +5,6 @@ public class CompareTWO <T extends Comparable<T>>{
     // Oba moraju biti ista vrsta jer koristimo T
     // Ako hocemo da budu razlicite vrste onda koristimo <T extends Comparable<U extends Comparable<T>>
 
-
     private final T fst;
     private final T snd;
 
