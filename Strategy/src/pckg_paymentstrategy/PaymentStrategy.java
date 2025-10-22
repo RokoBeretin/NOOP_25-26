@@ -1,5 +1,5 @@
 package pckg_paymentstrategy;
 
 public interface PaymentStrategy {
-    void pay(int amount);
+    void pay(double amount);
 }

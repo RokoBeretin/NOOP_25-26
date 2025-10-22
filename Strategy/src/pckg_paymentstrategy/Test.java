@@ -7,7 +7,7 @@ public class Test {
         cart.addItem(100);
         cart.addItem(200);
 
-        PaymentStrategy creditCardPayment = new CreditCardPayMent();
+        PaymentStrategy creditCardPayment = new CreditCardPayment();
         cart.pay(creditCardPayment);
 
         PaymentStrategy payPalPayment = new PayPalPayment();

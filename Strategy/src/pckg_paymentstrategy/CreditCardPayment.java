@@ -1,9 +1,9 @@
 package pckg_paymentstrategy;
 
-public class CreditCardPayMent implements  PaymentStrategy {
+public class CreditCardPayment implements  PaymentStrategy {
 
     @Override
-    public void pay(int amount) {
+    public void pay(double amount) {
         System.out.println("Paid " + amount + " using Credit Card.");
     }
 }
